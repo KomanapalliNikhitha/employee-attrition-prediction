@@ -118,4 +118,70 @@ employee-attrition-prediction/
     └── Viva_Questions.txt
 ```
 
+## Installation
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/KomanapalliNikhitha/employee-attrition-prediction.git
+```
+
+### 2. Go to the project folder
+
+```bash
+cd employee-attrition-prediction
+```
+
+### 3. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Flask Application
+
+Run:
+
+```bash
+python app.py
+```
+
+Then open the local Flask URL displayed in the terminal.
+
+## Jupyter Notebook
+
+Open `Employee_Attrition.ipynb` using Jupyter Notebook or JupyterLab to explore:
+
+- Data cleaning
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Model training
+- Model evaluation
+- Employee attrition prediction
+
+## Power BI Dashboard
+
+The project includes documentation for creating the Power BI dashboard using the HR employee dataset.
+
+Refer to:
+
+```text
+docs/PowerBI_Dashboard_Guide.txt
+```
+
+## Project Documentation
+
+Additional project materials are available in the `docs/` folder:
+
+- Project Report
+- PowerPoint Presentation
+- Power BI Dashboard Guide
+- Viva Questions
+- Execution Script
+
+## Disclaimer
+
+This project is developed for academic and learning purposes using the IBM HR Analytics Employee Attrition dataset.
+
+Model performance and project claims should be based on the results obtained from the final executed notebook.
