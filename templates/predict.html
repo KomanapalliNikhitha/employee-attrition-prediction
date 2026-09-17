@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Employee Attrition Prediction</h2>
+    </nav>
+
+    <div class="container">
+
+        <h1>Employee Details</h1>
+
+        <form action="/predict" method="post">
+
+            <label>Age</label>
+            <input type="number" name="Age" required>
+
+            <label>Monthly Income</label>
+            <input type="number" name="Income" required>
+
+            <label>Years At Company</label>
+            <input type="number" name="Years" required>
+
+            <label>Job Satisfaction</label>
+
+            <select name="JobSatisfaction" required>
+                <option value="1">1 - Low</option>
+                <option value="2">2 - Medium</option>
+                <option value="3">3 - High</option>
+                <option value="4">4 - Very High</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Predict">
+
+        </form>
+
+    </div>
+
+</body>
+</html>

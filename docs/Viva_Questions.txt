@@ -1,0 +1,11 @@
+1. What is employee attrition?
+Employees leaving an organization.
+
+2. Why use ML?
+To predict employees at risk.
+
+3. Best model?
+Random Forest/XGBoost (depends on results).
+
+4. Metrics?
+Accuracy, Precision, Recall, F1, ROC-AUC.
