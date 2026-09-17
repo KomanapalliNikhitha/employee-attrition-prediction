@@ -1,0 +1,4 @@
+Good morning. Our project predicts employee attrition using machine learning.
+We preprocess employee data, perform EDA, train Logistic Regression, Decision Tree,
+Random Forest and XGBoost models, compare their performance, and visualize HR insights
+using Power BI. This helps HR identify employees likely to leave and improve retention.

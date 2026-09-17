@@ -1,0 +1,9 @@
+Create visuals:
+- KPI: Attrition Rate
+- Department-wise Attrition
+- Job Role Distribution
+- Overtime vs Attrition
+- Monthly Income vs Attrition
+- Job Satisfaction
+Suggested DAX:
+Attrition Rate = DIVIDE(CALCULATE(COUNTROWS(Data),Data[Attrition]="Yes"),COUNTROWS(Data))
