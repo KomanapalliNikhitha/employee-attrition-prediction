@@ -1,22 +1,98 @@
 # Employee Attrition Prediction
 
-A machine learning and analytics project for analyzing employee attrition using HR data.
+## Project Overview
 
-## Technologies
+Employee Attrition Prediction is a Machine Learning and Data Analytics project that analyzes HR employee data and predicts employee attrition.
+
+The project uses Python for data analysis and machine learning, Power BI for interactive data visualization, and Flask for a web-based prediction application.
+
+## Objectives
+
+- Analyze employee attrition patterns.
+- Identify factors associated with employee turnover.
+- Perform data cleaning and preprocessing.
+- Conduct Exploratory Data Analysis (EDA).
+- Build and evaluate machine learning classification models.
+- Create an interactive Power BI dashboard.
+- Develop a Flask web application for employee attrition prediction.
+
+## Technologies Used
+
 - Python
-- Pandas, NumPy
+- Pandas
+- NumPy
 - Scikit-learn
-- Matplotlib, Seaborn
-- Power BI and DAX
+- XGBoost
+- Matplotlib
+- Seaborn
+- Power BI
+- DAX
 - Flask
+- Jupyter Notebook
+
+## Machine Learning
+
+The project uses classification algorithms for employee attrition prediction, including:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
 - XGBoost
 
+Model performance is evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+- Confusion Matrix
+
+## Data Analysis
+
+The project analyzes employee attributes such as:
+
+- Age
+- Job Role
+- Department
+- Monthly Income
+- Overtime
+- Job Satisfaction
+- Work-Life Balance
+- Years at Company
+- Performance Rating
+
 ## Project Workflow
-Data Collection → Data Cleaning → Data Preprocessing → EDA → Feature Engineering → Train/Test Split → Model Training → Model Evaluation → Prediction → Dashboard
+
+```text
+Data Collection
+       ↓
+Data Cleaning
+       ↓
+Data Preprocessing
+       ↓
+Exploratory Data Analysis
+       ↓
+Feature Engineering
+       ↓
+Train-Test Split
+       ↓
+Model Training
+       ↓
+Model Evaluation
+       ↓
+Attrition Prediction
+       ↓
+Power BI Dashboard
+       ↓
+Flask Web Application
+```
 
 ## Repository Structure
+
 ```text
-Employee-Attrition-Prediction/
+employee-attrition-prediction/
+│
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
@@ -24,33 +100,22 @@ Employee-Attrition-Prediction/
 ├── Employee_Attrition.ipynb
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
 ├── attrition_model.pkl
-├── templates/
+│
 ├── static/
+│   └── style.css
+│
+├── templates/
+│   ├── about.html
+│   ├── index.html
+│   ├── predict.html
+│   └── result.html
+│
 └── docs/
-    ├── Project_Report.docx
     ├── Employee_Attrition.pptx
+    ├── Execution_Script.txt
     ├── PowerBI_Dashboard_Guide.txt
-    ├── Viva_Questions.txt
-    └── Execution_Script.txt
+    ├── Project_Report.docx
+    └── Viva_Questions.txt
 ```
 
-## Installation
-```bash
-pip install -r requirements.txt
-```
 
-## Run the Flask Application
-```bash
-python app.py
-```
-
-Then open the local Flask URL displayed in the terminal.
-
-## Notebook
-Open `Employee_Attrition.ipynb` in Jupyter Notebook or JupyterLab to review the data analysis, preprocessing, model training, and evaluation workflow.
-
-## Project Documentation
-Additional report, presentation, Power BI guide, viva questions, and execution notes are available in the `docs/` folder.
-
-## Note
-Use only the model metrics and project claims that are produced by the final executed notebook/application.
